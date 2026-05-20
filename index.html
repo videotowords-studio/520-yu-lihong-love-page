@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ff4f83" />
+    <meta
+      name="description"
+      content="520 情人节快乐，送给喻力红的专属浪漫页面。"
+    />
+    <title>喻力红，520 情人节快乐</title>
+    <link rel="preload" href="assets/yu-lihong.jpg" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="sky" aria-hidden="true"></canvas>
+
+    <div class="petal-field" aria-hidden="true">
+      <span style="--x: 6; --d: 12s; --delay: -2s">♥</span>
+      <span style="--x: 18; --d: 15s; --delay: -6s">✦</span>
+      <span style="--x: 28; --d: 11s; --delay: -4s">♡</span>
+      <span style="--x: 40; --d: 17s; --delay: -9s">✺</span>
+      <span style="--x: 54; --d: 13s; --delay: -5s">♥</span>
+      <span style="--x: 66; --d: 18s; --delay: -12s">✦</span>
+      <span style="--x: 78; --d: 14s; --delay: -8s">♡</span>
+      <span style="--x: 91; --d: 16s; --delay: -3s">✺</span>
+    </div>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">2026 · 05 · 20</p>
+          <h1 id="page-title">
+            喻力红
+            <span>520 情人节快乐</span>
+          </h1>
+          <p class="love-line">
+            今天所有的星光、花瓣、烟火和心跳，都只负责一件事：
+            把“我爱你”说得更闪亮一点。
+          </p>
+          <div class="actions" aria-label="浪漫按钮">
+            <button class="primary-action" id="shineButton" type="button">
+              点亮星河
+            </button>
+            <button class="ghost-action" id="fireButton" type="button">
+              再放烟花
+            </button>
+          </div>
+        </div>
+
+        <figure class="portrait-stage" aria-label="喻力红的照片">
+          <div class="halo-ring"></div>
+          <div class="portrait-frame">
+            <img src="assets/yu-lihong.jpg" alt="喻力红的照片" />
+          </div>
+          <figcaption>
+            我的漂亮老婆，愿你每天都被温柔和偏爱包围。
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="message-band" aria-label="情书">
+        <div class="message-inner">
+          <p class="script-title">To my love</p>
+          <h2>力红，520 快乐</h2>
+          <p>
+            遇见你之后，平凡日子也会突然发光。愿往后的每一天，我都能陪你吃热乎的饭，
+            走慢一点的路，看更多好看的风景，把日子过成我们喜欢的样子。
+          </p>
+          <div class="promise-grid" aria-label="小小承诺">
+            <div>
+              <strong>多一点拥抱</strong>
+              <span>在你累的时候，第一时间站到你身边。</span>
+            </div>
+            <div>
+              <strong>多一点浪漫</strong>
+              <span>把纪念日过认真，把普通日子也过甜。</span>
+            </div>
+            <div>
+              <strong>多一点陪伴</strong>
+              <span>一起把未来慢慢收藏成漂亮回忆。</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
